@@ -4,28 +4,25 @@ package EDD;
 
 public class Producto {
     
+    private Producto siguiente;
     private String nombre;
     private int precio;
     private int cantidad;
-    private String nom;
     
-    
-    private String nom;
-    
-    private String nom;
-    
-    private String nom;
-    
-    private String nom;
-    
-    private String nom;
-    private String nom;
-    private String nom;
-    private String nom;
-    andresbucarello/TeLoTengoandresbucarello/TeLoTengo
-            
-            
-    
+    /**
+     * @return the siguiente
+     */
+    public Producto getSiguiente() {
+        return siguiente;
+    }
+
+    /**
+     * @param siguiente the siguiente to set
+     */
+    public void setSiguiente(Producto siguiente) {
+        this.siguiente = siguiente;
+    }
+
     /**
      * @return the nombre
      */
@@ -67,6 +64,4 @@ public class Producto {
     public void setCantidad(int cantidad) {
         this.cantidad = cantidad;
     }
-    
-    
 }

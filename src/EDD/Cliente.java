@@ -7,7 +7,7 @@ public class Cliente {
     private String nombre;
     private String apellido;
     private int cedula;
-    private Lista<Object> compras;
+    private ListaCompras compras;
 
     /**
      * @return the nombre
@@ -54,14 +54,14 @@ public class Cliente {
     /**
      * @return the compras
      */
-    public Lista<Object> getCompras() {
+    public ListaCompras getCompras() {
         return compras;
     }
 
     /**
      * @param compras the compras to set
      */
-    public void setCompras(Lista<Object> compras) {
+    public void setCompras(ListaCompras compras) {
         this.compras = compras;
     }
 
